@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de CPF</title>
+
+    <link rel="stylesheet" href="verificador_cpf.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>VALIDADOR DE CPF</h1>
+    </header>
+
+    <main>
+        <div class="formulario">
+            <label for="inputCpf">Informe aqui o CPF a ser analisado:</label>
+            <input type="text" name="inputCpf" class="inputCpf" placeholder="Ex.: XXX.XXX.XXX-XX">
+        </div>
+
+        <div class="buttons">
+                <button class="btn btn-analisar" id="btn-analisar">Analisar</button>
+                <button class="btn btn-limpar" id="btn-limpar">Limpar</button>
+        </div>
+
+        <div class="resposta">
+            <p>Iremos analisar o CPF informado ...</p>
+        </div>
+
+        <div class="explicacao">
+            <p>Quer saber como o número do seu CPF é criado? Passe o mouse aqui!</p>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <p>Exercício criado por Luiz Otávio Miranda, para o curso de JavaScript da Udemy</p>
+        </div>
+    </footer>
+
+    <script src="verificador_cpf.js"></script>
+
+</body>
+</html>
